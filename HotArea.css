@@ -1,0 +1,8 @@
+.j-hotarea {
+  position: relative;
+  width: 100%;
+}
+.j-hotarea a {
+  position: absolute;
+}
+

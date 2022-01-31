@@ -1,0 +1,45 @@
+.j-carousel {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.j-carousel .carousel-detail .pic-item {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.j-carousel .carousel-detail .show {
+  transform: translateX(0) scale(1);
+}
+.j-carousel .carousel-detail .pre {
+  transform: translateX(-100vw) scale(1);
+}
+.j-carousel .carousel-detail .next {
+  transform: translateX(100vw) scale(1);
+}
+.j-carousel .carousel-detail .is-animation {
+  transition: transform 0.4s ease-in-out;
+}
+.j-carousel .carousel-page-button {
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+}
+.j-carousel .carousel-page-button .carousel-page-button-item {
+  list-style: none;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: #aaaaaa;
+  margin: 0 0.3rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+.j-carousel .carousel-page-button .is-focus {
+  background-color: white;
+}
+
